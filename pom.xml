@@ -33,6 +33,7 @@
                 </phase>
                 <goals>site</goals>
             </execution>
+            </executions>
 </plugin>
     </plugins>
   </build>

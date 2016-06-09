@@ -28,7 +28,7 @@
             <execution>
                 <id>make-assembly</id>
                 <phase>package</phase>
-                <goals>site</goals>
+                <goals><goal>site</goal></goals>
             </execution>
             </executions>
 </plugin>

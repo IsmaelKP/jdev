@@ -17,6 +17,7 @@
           <source>1.7</source>
           <target>1.7</target>
         </configuration>
+        </executions>
       </plugin>
       <plugin>
   <artifactId>maven-war-plugin</artifactId>
@@ -24,6 +25,14 @@
   <configuration>
     <failOnMissingWebXml>false</failOnMissingWebXml>
   </configuration>
+          <executions>
+            <execution>
+                <id>make-assembly</id>
+                <phase>
+                    package
+                </phase>
+                <goals>site</goals>
+            </execution>
 </plugin>
     </plugins>
   </build>
